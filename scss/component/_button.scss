@@ -1,0 +1,50 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $color-white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+  }
+  
+  .default {
+    background-color: $theme-color-11;
+    &:hover {
+      background-color: $theme-color-11-light;
+      transition: .5s;
+    }
+  }
+  
+  .error {
+    background-color: $theme-color-9;
+    &:hover {
+      background-color: $theme-color-9-light;
+      transition: .5s;
+    }
+  }
+  
+  .info {
+    background-color: $theme-color-1;
+    &:hover {
+      background-color: $theme-color-1-light;
+      transition: .5s;
+    }
+  }
+  
+  .success {
+    background-color: $theme-color-10;
+    &:hover {
+      background-color: $theme-color-10-light;
+      transition: .5s;
+    }
+  }
+  
+  .warning {
+    background-color: $theme-color-2;
+    &:hover {
+      background-color: $theme-color-2-light;
+      transition: .5s;
+    }
+  }

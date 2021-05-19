@@ -1,0 +1,120 @@
+$headline-color: #58e1c1;
+$link-color: #51ddfc;
+$theme-color-1: #927bc1;
+$theme-color-2: #fd7856;
+$theme-color-3: #deb2ee;
+$theme-color-4: #7ee6fd;
+$theme-color-5: #88d9a0;
+$theme-color-6: #4da2bb;
+$theme-color-7: #ec9fa3;
+$theme-color-8: #fd9f85;
+$theme-color-9: #e4757a;
+$theme-color-10: #63cc82;
+$theme-color-11: #51ddfc;
+$theme-color-12: #80e8d1;
+$color-white: #fff;
+
+$breakpoint: 768px;
+
+@media (min-width: $breakpoint) {
+   
+    .container {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .centered {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .row {
+      flex-direction: row;
+    }
+    
+    [class^=col] {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center;
+    }
+    
+    [class^=col] + [class^=col] {
+      margin-left: 10px;
+    }
+    
+    .col-1 {
+      flex-basis: 8.33%;
+    }
+    
+    .col-2 {
+      flex-basis: 16.67%;
+    }
+    
+    .col-3 {
+      flex-basis: 25.00%;
+    }
+    
+    .col-4 {
+      flex-basis: 33.33%;
+    }
+    
+    .col-5 {
+      flex-basis: 41.67%;
+    }
+    
+    .col-6 {
+      flex-basis: 50.00%;
+    }
+    
+    .col-7 {
+      flex-basis: 58.33%;
+    }
+    
+    .col-8 {
+      flex-basis: 66.67%;
+    }
+    
+    .col-9 {
+      flex-basis: 75.00%
+    }
+    
+    .col-10 {
+      flex-basis: 83.33%;
+    }
+    
+    .col-11 {
+      flex-basis: 91.67%;
+    }
+    
+    .col-12 {
+      flex-basis: 100%;
+    }
+    
+    .nav {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    
+    .nav-link {
+      flex-basis: 100px;
+    }
+    
+    .btn {
+      padding: 10px 30px;
+    }
+    
+    .btn + .btn {
+      margin-left: 10px;
+    }
+    
+    .logo {
+      margin-left: initial;
+      margin-right: initial;
+    }
+    
+    }
