@@ -6,8 +6,17 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    
+    @media (min-width: $break-m) {
+      .btn {
+        padding: 10px 30px;
+      }
+    }  
+    & + .btn {
+      @media (min-width: $break-m) {
+        margin-left: 10px;
+      } 
   }
+}
   
   .default {
     background-color: $theme-color-11;
